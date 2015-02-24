@@ -1,10 +1,13 @@
 <p>hello world</p>
-<% if flash[:notice] -%>
-  <p class="notice"><%= flash[:notice] %></p>
-<% end -%>
-<% if flash[:error] -%>
-  <p class="error"><%= flash[:error] %></p>
-<% end -%>
+ <% if @message.errors.any? %>
+    <div id="error_explanation">
+      <ul>
+        <% @message.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
 <%= form_for :message do |f| %>
   <%= f.text_field :name, label: 'Type your name' %>
   <%= f.text_field :email, placeholder: 'user@domain.com' %>
