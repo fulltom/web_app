@@ -5,11 +5,17 @@ class StaticController < ApplicationController
 	end
 	def create
 		@message = Message.new(message_params)
-		@message.save
-		redirect_to '/'
+		if @message.valid?
+			flass[:error] = "Somethig is wrong"
+			redirect_to root_url
+		else
+			flash[:notice] = "Some text indicating it was created"
+			@message.save
+			redirect_to root_url
+		end
 	end
-	private 
-		def message_params 
+	private
+		def message_params
 			params.require(:message).permit(:name, :email, :body)
 		end
 end
