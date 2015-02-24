@@ -1,0 +1,7 @@
+<p>hello world</p>
+<%= form_for :message do |f| %>
+  <%= f.text_field :name, label: 'Type your name' %>
+  <%= f.text_field :email, placeholder: 'user@domain.com' %>
+  <%= f.text_area :body %>
+  <%= f.button :submit, value: "Send Message" %>
+<% end %>
