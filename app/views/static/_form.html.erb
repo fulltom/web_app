@@ -1,4 +1,10 @@
 <p>hello world</p>
+<% if flash[:notice] -%>
+  <p class="notice"><%= flash[:notice] %></p>
+<% end -%>
+<% if flash[:error] -%>
+  <p class="error"><%= flash[:error] %></p>
+<% end -%>
 <%= form_for :message do |f| %>
   <%= f.text_field :name, label: 'Type your name' %>
   <%= f.text_field :email, placeholder: 'user@domain.com' %>

@@ -4330,3 +4330,479 @@ Started GET "/assets/static-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1
 
 
 Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-24 13:53:05 +0100
+
+
+Started GET "/" for ::1 at 2015-02-24 13:57:08 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticController#index as HTML
+  Rendered static/_form.html.erb (8.3ms)
+  Rendered static/index.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 91ms (Views: 78.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-24 13:57:09 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-24 13:57:09 +0100
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-24 13:57:09 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-24 13:57:09 +0100
+
+
+Started GET "/assets/static-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-24 13:57:09 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:57:09 +0100
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-02-24 13:57:09 +0100
+
+
+Started POST "/" for ::1 at 2015-02-24 13:57:11 +0100
+Processing by StaticController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lNjzaBe4ruzxEwWq6UD/2ddmPZnty/7+D9hIMLoWfLlKGtrUSHllpyukNgYseOpZKlJ8AiTEfAOM5yZpULcHCg==", "message"=>{"name"=>"fsdf", "email"=>"sd", "body"=>"sdfdsf"}, "button"=>"Send Message"}
+Completed 500 Internal Server Error in 4ms
+
+NameError (undefined local variable or method `flass' for #<StaticController:0x007fbc69689db8>):
+  app/controllers/static_controller.rb:9:in `create'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_source.erb (3.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/_web_console.html.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.1.0/gems/web-console-2.0.0/lib/action_dispatch/templates/rescues/diagnostics.html.erb within rescues/layout (21.7ms)
+
+
+Started POST "/" for ::1 at 2015-02-24 13:57:22 +0100
+Processing by StaticController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lNjzaBe4ruzxEwWq6UD/2ddmPZnty/7+D9hIMLoWfLlKGtrUSHllpyukNgYseOpZKlJ8AiTEfAOM5yZpULcHCg==", "message"=>{"name"=>"fsdf", "email"=>"sd", "body"=>"sdfdsf"}, "button"=>"Send Message"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-02-24 13:57:22 +0100
+Processing by StaticController#index as HTML
+  Rendered static/_form.html.erb (1.3ms)
+  Rendered static/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-24 13:57:22 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-24 13:57:22 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-24 13:57:22 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-24 13:57:22 +0100
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-24 13:57:22 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:57:22 +0100
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-02-24 13:57:22 +0100
+
+
+Started POST "/" for ::1 at 2015-02-24 13:57:24 +0100
+Processing by StaticController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5/oSvEOqyxUYr6wPgQ9LAq579rH/Z3DoIRMwtehxIQs5ODsAHGsAXsIYn6NEN16CU0+3KjZo8hWiLF7sAtBauA==", "message"=>{"name"=>"", "email"=>"", "body"=>""}, "button"=>"Send Message"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-24 13:57:24 +0100
+Processing by StaticController#index as HTML
+  Rendered static/_form.html.erb (0.7ms)
+  Rendered static/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-24 13:57:24 +0100
+
+
+Started GET "/assets/static-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-24 13:57:24 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-24 13:57:24 +0100
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-24 13:57:24 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-24 13:57:24 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:57:24 +0100
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-02-24 13:57:24 +0100
+
+
+Started POST "/" for ::1 at 2015-02-24 13:57:26 +0100
+Processing by StaticController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vKB2l5hGYAxOOAs72xzRM++AeD5F/DpeJpQbz3HWvFxiYl8rx4erR5SPOJceJMSzErQ5pYzzuKOlq3WWm3fH7w==", "message"=>{"name"=>"", "email"=>"", "body"=>""}, "button"=>"Send Message"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-24 13:57:26 +0100
+Processing by StaticController#index as HTML
+  Rendered static/_form.html.erb (1.3ms)
+  Rendered static/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 42ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-24 13:57:26 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:57:26 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-24 13:57:26 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-24 13:57:26 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-24 13:57:26 +0100
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-24 13:57:26 +0100
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-02-24 13:57:26 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:57:26 +0100
+
+
+Started POST "/" for ::1 at 2015-02-24 13:57:29 +0100
+Processing by StaticController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Omiysilf0ndXnD5SCFf2dflqK6Y01HmRGPiBKScgcLfkqpsOdp4ZPI0rDf7Nb+P1BF5qPf3b+2ybx+9wzYELBA==", "message"=>{"name"=>"sdf", "email"=>"sdf", "body"=>"sdf"}, "button"=>"Send Message"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-24 13:57:29 +0100
+Processing by StaticController#index as HTML
+  Rendered static/_form.html.erb (0.8ms)
+  Rendered static/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 48ms (Views: 47.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-24 13:57:29 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-24 13:57:29 +0100
+
+
+Started GET "/assets/static-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-24 13:57:29 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:57:29 +0100
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-24 13:57:29 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-24 13:57:29 +0100
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-02-24 13:57:29 +0100
+
+
+Started GET "/" for ::1 at 2015-02-24 13:57:34 +0100
+Processing by StaticController#index as HTML
+  Rendered static/_form.html.erb (1.8ms)
+  Rendered static/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 60ms (Views: 54.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-24 13:57:34 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-24 13:57:34 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-24 13:57:34 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:57:34 +0100
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-24 13:57:34 +0100
+
+
+Started GET "/assets/static-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-24 13:57:34 +0100
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-02-24 13:57:34 +0100
+
+
+Started POST "/" for ::1 at 2015-02-24 13:57:37 +0100
+Processing by StaticController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zM5O6uvDKLiYPHkPNymM0AfOJfMfCefcsISlH0nT0HcSDGdWtALj80KLSqPyEZlQ+vpkaNYGZSEzu8tGo3KrxA==", "message"=>{"name"=>"sdf", "email"=>"sdfsdf", "body"=>"sdf"}, "button"=>"Send Message"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-24 13:57:37 +0100
+Processing by StaticController#index as HTML
+  Rendered static/_form.html.erb (0.9ms)
+  Rendered static/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-24 13:57:37 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-24 13:57:37 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-24 13:57:37 +0100
+
+
+Started GET "/assets/static-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-24 13:57:37 +0100
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-24 13:57:37 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:57:37 +0100
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-02-24 13:57:37 +0100
+
+
+Started POST "/" for ::1 at 2015-02-24 13:57:53 +0100
+Processing by StaticController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Zff9UFqPIczC8UPaZg/UdKRO9v5/iQRBURa0+ImLUgq7NdTsBU7qhxhGcHajN8H0WXq3ZbaGhrzSKdqhYyopuQ==", "message"=>{"name"=>"sdfsdf", "email"=>"vergnaudt@gmail.com", "body"=>"sfddsfsdfsdf"}, "button"=>"Send Message"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-24 13:57:53 +0100
+Processing by StaticController#index as HTML
+  Rendered static/_form.html.erb (0.7ms)
+  Rendered static/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 59ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-24 13:57:53 +0100
+
+
+Started GET "/assets/static-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-24 13:57:53 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:57:53 +0100
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-24 13:57:53 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-24 13:57:53 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-24 13:57:53 +0100
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-02-24 13:57:53 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:57:53 +0100
+
+
+Started GET "/assets/static-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-24 13:58:05 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-24 13:58:05 +0100
+
+
+Started POST "/" for ::1 at 2015-02-24 13:58:12 +0100
+Processing by StaticController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LyH8fiiSDDqUJ+WH6HSQrsD2QiDGbYEsWUuQ0p8m8hTx49XCd1PHcU6Q1istTIUuPcIDuw9iA9HadP6LdYeJpw==", "message"=>{"name"=>"dsfsdf", "email"=>"sdfs", "body"=>"dfsf"}, "button"=>"Send Message"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-02-24 13:58:12 +0100
+Processing by StaticController#index as HTML
+  Rendered static/_form.html.erb (2.5ms)
+  Rendered static/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-24 13:58:12 +0100
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-24 13:58:12 +0100
+
+
+Started GET "/assets/static-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-24 13:58:12 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-24 13:58:12 +0100
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-02-24 13:58:12 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:58:12 +0100
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-24 13:58:12 +0100
+
+
+Started GET "/" for ::1 at 2015-02-24 13:58:27 +0100
+Processing by StaticController#index as HTML
+  Rendered static/_form.html.erb (1.1ms)
+  Rendered static/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 52ms (Views: 47.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-24 13:58:27 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-24 13:58:27 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-24 13:58:27 +0100
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-24 13:58:27 +0100
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-02-24 13:58:27 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:58:27 +0100
+
+
+Started GET "/assets/static-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-24 13:58:27 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:58:27 +0100
+
+
+Started POST "/" for ::1 at 2015-02-24 13:58:29 +0100
+Processing by StaticController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sIV0r/6c9raNl9ux0rDBUj+j0Tm8PuIqovypphoigiFuR10ToV09/Vcg6B0XiNTSwpeQonUxYNchw8f/8IP5kg==", "message"=>{"name"=>"sdf", "email"=>"", "body"=>""}, "button"=>"Send Message"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2015-02-24 13:58:29 +0100
+Processing by StaticController#index as HTML
+  Rendered static/_form.html.erb (0.6ms)
+  Rendered static/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 38ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-24 13:58:29 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-24 13:58:29 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-24 13:58:29 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:58:29 +0100
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-02-24 13:58:29 +0100
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-24 13:58:29 +0100
+
+
+Started GET "/assets/static-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-24 13:58:29 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:58:29 +0100
+
+
+Started POST "/" for ::1 at 2015-02-24 13:58:37 +0100
+Processing by StaticController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6jLvDh4Et5RQb8EnO75aWEr3BTbzB+HDKtnxVVYD+Oc08MayQcV834rY8ov+hk/Yt8NErToIYz6p5p8MvKKDVA==", "message"=>{"name"=>"dsfs", "email"=>"fsdf", "body"=>"sdf"}, "button"=>"Send Message"}
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2015-02-24 13:58:37 +0100
+Processing by StaticController#index as HTML
+  Rendered static/_form.html.erb (1.2ms)
+  Rendered static/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 57ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-24 13:58:37 +0100
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-24 13:58:37 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-24 13:58:37 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-24 13:58:37 +0100
+
+
+Started GET "/assets/static-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-24 13:58:37 +0100
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-02-24 13:58:37 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:58:37 +0100
+
+
+Started POST "/" for ::1 at 2015-02-24 13:58:43 +0100
+Processing by StaticController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wEpE7irunpHWGROAYyFe+XKMzdk4m+TRZTLwRAPRW4weiG1SdS9V2gyuICymGUt5j7iMQvGUZizmDZ4d6XAgPw==", "message"=>{"name"=>"", "email"=>"", "body"=>""}, "button"=>"Send Message"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2015-02-24 13:58:43 +0100
+Processing by StaticController#index as HTML
+  Rendered static/_form.html.erb (0.8ms)
+  Rendered static/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-02-24 13:58:44 +0100
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-02-24 13:58:44 +0100
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-02-24 13:58:44 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:58:44 +0100
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-02-24 13:58:44 +0100
+
+
+Started GET "/assets/application-001948a807d6467a657420955d9f0c1c.js?body=1" for ::1 at 2015-02-24 13:58:44 +0100
+
+
+Started GET "/assets/static-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-02-24 13:58:44 +0100
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-02-24 13:58:44 +0100
